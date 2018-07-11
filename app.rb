@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/food' do
-    
+    params.to_s
   end
 
 end
